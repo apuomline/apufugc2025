@@ -3,7 +3,7 @@
 ## The DL-ICG team's 7th place solution [Competition Link](https://www.codabench.org/competitions/4781/) [Github Link](https://github.com/maskoffs/Fetal-Ultrasound-Grand-Challenge)
 
 <p align="center">
-  <img src="imgs/TransUNETR.png" width="800"/>
+  <img src="configs/截图20250707112800.png" width="800"/>
 </p>
 
 
