@@ -2,6 +2,8 @@
 
 ## The DL-ICG team's 7th place solution [Competition Link](https://www.codabench.org/competitions/4781/) [Github Link](https://github.com/maskoffs/Fetal-Ultrasound-Grand-Challenge)
 
+<embed src="https://github.com/maskoffs/Fetal-Ultrasound-Grand-Challenge/blob/main/path/to/your/file.pdf" type="application/pdf" width="100%" height="500px" />
+
 ### Solution Overview
 Our approach is divided into two stages. Specifically, in the first stage, we initially employ the UniMatch semi-supervised learning method, utilizing 10 labeled images as a validation set, and combining 40 labeled images with 450 unlabeled images for model training. Subsequently, we use the trained model to infer the unlabeled images, generate pseudo-labels, and manually select some high-quality pseudo-labels to include in the training set. In the second stage, we further train the model using a fully supervised approach. This process will be continuously repeated until a sufficient number of high-quality pseudo-labels have been accumulated.
 
